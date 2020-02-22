@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+	<default>
+        <carriers>
+            <rajaongkir>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+				<model>Leogent\Rajaongkir\Model\Carrier\RajaOngkir</model>
+                <name>Leogent Rajaongkir Shipping</name>
+                <price>0.00</price>
+                <title>Leogent Rajaongkir Shipping</title>
+               <specificerrmsg>Leogent Rajaongkir Shipping is not available for your area. Please contact us.</specificerrmsg>
+            </rajaongkir>
+            <!-- carrier-config -->
+        </carriers>
+    </default>
+</config>
